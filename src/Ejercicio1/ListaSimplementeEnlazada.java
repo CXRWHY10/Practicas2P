@@ -2,7 +2,7 @@ package Ejercicio1;
 
 public class ListaSimplementeEnlazada {
 
-    Nodo primero;
+    protected Nodo primero;
 
     public ListaSimplementeEnlazada(){
         primero = null;
@@ -10,6 +10,7 @@ public class ListaSimplementeEnlazada {
     public boolean estaVacia(){
         return  primero == null;
     }
+
     public void insetar (Object dato){
         if (estaVacia()){
             Nodo nuevo = new Nodo(dato,null);
