@@ -1,11 +1,11 @@
 package Ejercicio4;
 
 public class Main {
-    public static void main(String[]args){
+    public static void main(String[]args) {
         ListaCircularDoblementeEnlazada listaCircularDoblementeEnlazada = new ListaCircularDoblementeEnlazada();
 
         System.out.println(listaCircularDoblementeEnlazada.estaVacia());
-        for (int i = 1 ; i <= 5; i++){
+        for (int i = 1; i <= 5; i++) {
             listaCircularDoblementeEnlazada.insertarFinal(i);
         }
         listaCircularDoblementeEnlazada.Mostrar();
